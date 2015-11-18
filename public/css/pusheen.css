@@ -1,0 +1,163 @@
+
+#pusheen {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: #bfbab3;
+    width: 300px;
+    height: 188px;
+    margin-top: -120px;
+    margin-left: -150px;
+    border-radius: 90px;
+}
+#pusheen:before, #pusheen:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #bfbab3;
+    width: 30px;
+    height: 35px;
+    border-radius: 15px;
+    top: 170px;
+}
+#pusheen:before {
+    left: 19%;
+}
+#pusheen:after {
+    left: 69.25%;
+}
+#pusheen #the {
+    background: #bfbab3;
+    width: 40px;
+    height: 120px;
+    border-radius: 20px/60px;
+    margin: 0 0 0 3px;
+}
+#pusheen #the:before, #pusheen #the:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -17px;
+    border: 25px solid #bfbab3;
+    transform: rotate(45deg);
+    border-radius: 12px;
+}
+#pusheen #the:before {
+    left: 7%;
+}
+#pusheen #the:after {
+    left: 38%;
+}
+#pusheen #cat {
+    position: absolute;
+    top: 23.5%;
+    left: 80%;
+    background: #bfbab3;
+    width: 100px;
+    height: 25px;
+    border-radius: 50px;
+    z-index: -1;
+}
+#pusheen #cat:before {
+    content: "";
+    background: #bfbab3;
+    height: 45px;
+    width: 25px;
+    border-radius: 45px;
+    position: absolute;
+    right: -5%;
+    top: -80%;
+}
+#pusheen #cat:after {
+    content: "";
+    background: grey;
+    position: absolute;
+    height: 25px;
+    width: 15px;
+    right: 24px;
+    top: 0;
+}
+#pusheen #face {
+    font-size: 22px;
+    font-weight: 800;
+    color: #4e2c11;
+    margin-top: -100px;
+    margin-left: 29%;
+}
+#pusheen #face:before, #pusheen #face:after {
+    content: "";
+    display: block;
+    background: #4e2c11;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 23%;
+}
+#pusheen #face:before {
+    left: 15%;
+}
+#pusheen #face:after {
+    left: 42%;
+}
+#pusheen #whisker-a, #pusheen #whisker-b, #pusheen #whisker-c, #pusheen #whisker-d {
+    background: #4e2c11;
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+}
+#pusheen #whisker-a, #pusheen #whisker-b {
+    margin-left: -5px;
+    margin-top: -25px;
+}
+#pusheen #whisker-a {
+    transform: rotate(-10deg);
+}
+#pusheen #whisker-b {
+    transform: rotate(10deg);
+}
+#pusheen #whisker-c, #pusheen #whisker-d {
+    margin-left: 165px;
+}
+#pusheen #whisker-c {
+    margin-top: -10px;
+    transform: rotate(-10deg);
+}
+#pusheen #whisker-d {
+    margin-top: 5px;
+    transform: rotate(10deg);
+}
+#pusheen #stripe-a, #pusheen #stripe-b, #pusheen #stripe-c {
+    background: grey;
+    width: 10px;
+    height: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+}
+#pusheen #stripe-a {
+    left: 24.5%;
+}
+#pusheen #stripe-b {
+    left: 29.5%;
+}
+#pusheen #stripe-c {
+    left: 34.5%;
+}
+#pusheen #stripe-z, #pusheen #stripe-y {
+    background: grey;
+    width: 20px;
+    height: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    position: absolute;
+    top: 0;
+}
+#pusheen #stripe-z {
+    left: 57%;
+}
+#pusheen #stripe-y {
+    left: 66%;
+}

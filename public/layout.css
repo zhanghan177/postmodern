@@ -1,0 +1,20 @@
+.home-menu {
+    background: #2D3E50 none repeat scroll 0% 0%;
+}
+.home-menu .pure-menu-heading {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu .pure-menu-selected a {
+    color: #FFF;
+}
+
+.home-menu ul {
+    float: right;
+}
+
+.home-menu a {
+    color: #6FBEF3;
+}

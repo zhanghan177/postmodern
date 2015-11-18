@@ -1,0 +1,22 @@
+{
+  "name": "art_project",
+  "version": "0.0.0",
+  "authors": [
+    "zhanghan177 <hazh@umich.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}
